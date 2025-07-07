@@ -1,16 +1,59 @@
-# jezt_internship_app
+# Jezt Technologies : Flutter App Development Task
 
-A new Flutter project.
+## [✅ Objectives](#objectives) :
+- Login using Jezt Technologies API.
+- Display dashboard data after successful login.
+- Logout functionality.
 
-## Getting Started
+## 🚀 How to Run the Project
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/AkshayShineKrishna/Jezt-Technologies-Flutter-App-Development-Task.git
+   cd Jezt-Technologies-Flutter-App-Development-Task
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Get dependencies**:
+   ```bash
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the app**:
+   ```bash
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> Make sure you have an emulator running or a physical device connected.
+
+---
+
+## 📁 Folder Structure Overview
+
+```plaintext
+.
+├── endpoints/
+├── models/
+├── presentation/
+└── services/
+```
+
+### 📌 `presentation/`
+- Contains all **UI and screens** used in the app.
+- Example: `ScreenHome`, `ScreenDashboard`.
+
+### 🌐 `services/`
+- Responsible for **handling HTTP web requests** using Dio.
+- Example: `login`, `logout`, `dashboard` API calls are made here.
+
+### 🧩 `models/`
+- Holds **data models** used to convert JSON responses from the API into Dart classes.
+- Example: `LoginResponse`, `DashBoardResponse`.
+
+### 🔗 `endpoints/`
+- Stores all **API endpoint constants** such as:
+  - `login`
+  - `dashboard`
+  - `logout`
+
+---
+
