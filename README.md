@@ -1,6 +1,13 @@
 # Jezt Technologies : Flutter App Development Task
 
-## [✅ Objectives](#objectives) :
+- [🚀 How to Run the Project](#-how-to-run-the-project)
+- [📁 Folder Structure Overview](#-folder-structure-overview)
+  - [📌 presentation](#-presentation)
+  - [🌐 services](#-services)
+  - [🧩 models](#-models)
+  - [🔗 endpoints](#-endpoints)
+
+## ✅ Objectives :
 - Login using Jezt Technologies API.
 - Display dashboard data after successful login.
 - Logout functionality.
