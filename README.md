@@ -9,6 +9,7 @@
   - [🌐 services](#-services)
   - [🧩 models](#-models)
   - [🔗 endpoints](#-endpoints)
+- [⬇️ Download Apk](https://github.com/AkshayShineKrishna/Jezt-Technologies-Flutter-App-Development-Task/releases/tag/v1.0.0)
 
 ## ✅ Objectives :
 - Login using Jezt Technologies API.
@@ -64,6 +65,4 @@
   - `login`
   - `dashboard`
   - `logout`
-
----
 
