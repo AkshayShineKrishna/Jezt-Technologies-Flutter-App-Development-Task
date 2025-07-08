@@ -1,4 +1,8 @@
 # Jezt Technologies : Flutter App Development Task
+![Demo](demo.gif)
+
+## Table of Content
+- [Demo](#demo)
 - [✅ Objectives](#-objectives-)
 - [🚀 How to Run the Project](#-how-to-run-the-project)
 - [📁 Folder Structure Overview](#-folder-structure-overview)
