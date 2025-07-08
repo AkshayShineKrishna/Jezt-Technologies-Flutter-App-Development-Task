@@ -72,8 +72,10 @@ class _ScreenDashboardState extends State<ScreenDashboard> {
 
     if (message != null) {
       _showMessage(message);
+      _navigate();
+      return;
     }
-    _showMessage("Logged out successfully",color: Colors.green);
+    _showMessage("Logged out successfully", color: Colors.green);
     _navigate();
   }
 
