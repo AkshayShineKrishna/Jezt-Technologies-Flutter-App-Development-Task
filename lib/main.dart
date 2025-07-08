@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'JEST INTERN APP',
+      title: 'JEZT INTERN APP',
       theme: ThemeData(textTheme: GoogleFonts.poppinsTextTheme()),
       home: const ScreenLogin(),
     );
